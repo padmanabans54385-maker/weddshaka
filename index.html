@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaka Wedding</title>
+    <!-- Preconnect to Google Fonts for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Elegant Fonts: Cormorant Garamond for headings, Montserrat for body -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Subtle Sticky Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-brand">S & K</a>
+            <ul class="nav-links">
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#details">The Celebration</a></li>
+                <li><a href="#location">Venue</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Full Screen Landing Area -->
+    <header id="hero" class="hero-section">
+        <div class="hero-content fade-in">
+            <h1 class="hero-names">Shakthi <span>weds</span> Kalki</h1>
+            <p class="hero-date">April 30th, 2026</p>
+            <p class="hero-location">Ayyanar Vadhana Wedding Mahal</p>
+        </div>
+    </header>
+
+    <!-- Introductory Story Section -->
+    <section id="story" class="section story-section">
+        <div class="content grid-layout">
+            <div class="story-text fade-in">
+                <h2 class="section-title">A New Chapter</h2>
+                <p class="story-paragraph">
+                    "Two hearts, one soul, a promise forever."
+                </p>
+                <p class="story-paragraph">
+                    We invite you to witness and celebrate the union of our lives.
+                    Your presence and blessings will make our special day complete as we embark on this beautiful
+                    journey of love together.
+                </p>
+            </div>
+            <div class="story-image-wrapper fade-in" style="transition-delay: 0.2s;">
+                <img src="Img/1.jpeg" alt="Shakthi and Kalki" class="story-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Celebration Details Section -->
+    <section id="details" class="section details-section">
+        <div class="content fade-in">
+            <div class="text-center mb-large">
+                <h2 class="section-title text-light">The Celebration</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3 class="card-title">When</h3>
+                    <p class="card-text">Thursday,<br>April 30th, 2026</p>
+                    <p class="card-highlight">10:30 AM</p>
+                </div>
+
+                <div class="countdown-wrapper">
+                    <div class="countdown" id="countdown">
+                        <div class="time-box">
+                            <span id="days">00</span>
+                            <small>Days</small>
+                        </div>
+                        <div class="time-box">
+                            <span id="hours">00</span>
+                            <small>Hours</small>
+                        </div>
+                        <div class="time-box">
+                            <span id="minutes">00</span>
+                            <small>Minutes</small>
+                        </div>
+                        <div class="time-box">
+                            <span id="seconds">00</span>
+                            <small>Seconds</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue Location Section -->
+    <section id="location" class="section location-section">
+        <div class="content fade-in">
+            <div class="text-center mb-large">
+                <h2 class="section-title">Venue Details</h2>
+            </div>
+
+            <div class="venue-container">
+                <div class="venue-info">
+                    <h3 class="venue-name">Ayyanar Vadhana<br>Wedding Mahal</h3>
+                    <p class="venue-address">Gather with us to celebrate this special day.</p>
+
+                    <a href="https://maps.app.goo.gl/fJRvnu2KUgkCjWs89" target="_blank" class="luxury-button">
+                        Get Directions
+                    </a>
+                </div>
+
+                <div class="map-wrapper">
+                    <!-- Clean minimal map style if embed was possible, utilizing simple iframe for now -->
+                    <iframe src="https://maps.app.goo.gl/fJRvnu2KUgkCjWs89" width="100%" height="100%" style="border:0;"
+                        allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Elegant Footer -->
+    <footer class="site-footer">
+        <h2 class="footer-names">S & K</h2>
+        <p class="footer-blessing">We look forward to sharing our joy with you.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
