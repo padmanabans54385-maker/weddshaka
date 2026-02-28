@@ -164,7 +164,7 @@ h4 {
     height: 100vh;
     width: 100%;
     background-color: var(--primary-color);
-    background-image: linear-gradient(rgba(26, 54, 42, 0.6), rgba(26, 54, 42, 0.8)), url('Img/1.jpeg');
+    background-image: linear-gradient(rgba(26, 54, 42, 0.6), rgba(26, 54, 42, 0.8)), url('imd/1.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -634,4 +634,5 @@ h4 {
     .footer-names {
         font-size: 2.5rem;
     }
+
 }
